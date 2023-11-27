@@ -1,0 +1,27 @@
+
+{
+  "stg":{
+    "stakinguser": {
+      "email":"", 
+      "password": "",
+      "cookies": {}
+      },
+    "walletUser": {
+      "email": "",
+      "password": "",
+      "cookies": {}
+      }
+  },
+  "test":{
+    "stakinguser": {
+      "email":"", 
+      "password": "",
+      "cookies": {}
+      },
+    "walletUser": {
+      "email": "",
+      "password": "",
+      "cookies": {}
+      }
+  }
+}

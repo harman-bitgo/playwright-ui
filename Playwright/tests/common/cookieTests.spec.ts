@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import * as SignIn from '../Framework/signIn';
+import * as SignIn from '../framework/signIn';
 
 
 test.beforeAll('Manual login validation', async ({ browser })=>{

@@ -1,0 +1,19 @@
+{
+    "stg": {
+      "stakeWalletId":"",
+      "stakingFee": 0.05,
+      "warmUp": 10,
+      "coolDown": 5,
+      "minBalance": 100,
+      "minStakeAmount": 50
+    },
+    "test": {
+      "stakeWalletId":"",
+      "stakingFee": 0.05,
+      "warmUp": 10,
+      "coolDown": 5,
+      "minBalance": 100,
+      "minStakeAmount": 50
+    }
+  }
+  
