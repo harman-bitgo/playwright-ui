@@ -3,6 +3,10 @@ import { expect } from "@playwright/test";
 const base_url= "https://app.bitgo-test.com/";
 
 
+export async function accountLabel({page}) {
+    return page.locator("xpath=//button[@aria-label='Account']");
+}
+
 export async function manualSignIn({ page }){
 
     await page.goto(base_url);

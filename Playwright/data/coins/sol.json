@@ -8,7 +8,8 @@
       "minStakeAmount": 50
     },
     "test": {
-      "stakeWalletId":"",
+      "stakeWalletId":"6564899e34d6529e843b3b8487d81a0f",
+      "stakeWalletName":"SOL UI Automation Sender",
       "stakingFee": 0.05,
       "warmUp": 10,
       "coolDown": 5,

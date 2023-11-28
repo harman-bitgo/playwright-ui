@@ -1,7 +1,7 @@
 import { chromium, test as baseTest } from "@playwright/test";
-import LoginPage from "../pages/loginPage.ts";
-import HomePage from "../pages/homePage.ts";
-import WalletPage from "../pages/walletPage.ts";
+import LoginPage from "../pages/loginPage";
+import HomePage from "../pages/homePage";
+import WalletPage from "../pages/walletPage";
 
 
 type pages = {
@@ -28,5 +28,5 @@ const testPages = baseTest.extend<pages>({
     },
 })
 
-export const test = testPages;
+export const base = testPages;
 export const expect = testPages.expect;
